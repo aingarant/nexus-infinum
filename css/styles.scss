@@ -1,41 +1,39 @@
-*
-{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-body
-{
+body {
   background-color: #000;
 }
 
-header{
+header {
   position: fixed;
   top: 0;
 
   width: 100%;
   padding: 10px;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
   z-index: 1;
-  .container{
+  .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .logo{
+    .logo {
       color: #000;
       font-size: 30px;
       font-weight: 900;
     }
 
-    nav{
-      ul{
+    nav {
+      ul {
         display: flex;
         list-style: none;
-        li{
+        li {
           margin-left: 20px;
-          a{
+          a {
             color: #000;
             text-decoration: none;
           }
@@ -45,23 +43,22 @@ header{
   }
 }
 
-.hero
-{
-  background-image: url('../images/hero.jpeg');
+.hero {
+  background-image: url("../images/hero.jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  .container{
+  .container {
     text-align: center;
-    h1{
+    h1 {
       color: #fff;
       font-size: 50px;
       font-weight: bold;
     }
-    p{
+    p {
       color: #fff;
       font-size: 20px;
       font-weight: bold;
@@ -69,28 +66,42 @@ header{
   }
 }
 
-.services
-{
+.services {
   background-color: #efefef;
-  padding: 10px;
+  padding: 50px;
+  padding-top: 50px;
   text-align: center;
-  height: 300px;
-  .services-container{
+  line-height: 200%;
 
+  h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .services-container {
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
-    .service{
-      width: 30%;
-      .icon{
+    gap: 25px;
+
+    .service {
+      width: 25%;
+      background-color: burlywood;
+      padding: 25px;
+      border-radius: 10px;
+      height: 200px;
+
+      .icon {
         font-size: 50px;
         color: #000;
       }
-      h3{
+      h3 {
         color: #000;
         font-size: 30px;
         font-weight: bold;
       }
-      p{
+      p {
         color: #000;
         font-size: 18px;
         font-weight: 400;
@@ -99,67 +110,59 @@ header{
   }
 }
 
-.about
-{
+.about {
   background-color: #fff;
-  padding: 10px;
+  padding: 25px;
   text-align: center;
-  .about-container{
+
+  h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .about-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 25px;
     gap: 50px;
-    .about-text{
+    .about-text {
       width: 50%;
-      h2{
+
+      p {
         color: #000;
-        font-size: 30px;
-        font-weight: bold;
-      }
-      p{
-        color: #000;
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 210%;
+        margin-bottom: 25px;
+        text-align: justify;
       }
     }
-    .about-image{
+    .about-image {
       width: 50%;
-      img{
+      img {
         width: 100%;
+        border-radius: 25px;
       }
     }
   }
 }
 
-footer{
-  background-color: #fff;
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
   padding: 10px;
   text-align: center;
-  .container{
+  .container {
     display: flex;
     justify-content: space-between;
+  }
 
-    .logo{
-      color: #000;
-      font-size: 30px;
-      font-weight: bold;
-    }
-
-    nav{
-      ul{
-        display: flex;
-        list-style: none;
-        li{
-          margin-left: 20px;
-          a{
-            color: #000;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-          }
-        }
-      }
-    }
+  a:link,
+  a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
   }
 }

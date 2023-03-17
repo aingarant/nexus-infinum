@@ -63,16 +63,28 @@ header .container nav ul li a {
 
 .services {
   background-color: #efefef;
-  padding: 10px;
+  padding: 50px;
+  padding-top: 50px;
   text-align: center;
-  height: 300px;
+  line-height: 200%;
+}
+.services h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
 }
 .services .services-container {
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 .services .services-container .service {
-  width: 30%;
+  width: 25%;
+  background-color: burlywood;
+  padding: 25px;
+  border-radius: 10px;
+  height: 200px;
 }
 .services .services-container .service .icon {
   font-size: 50px;
@@ -91,38 +103,44 @@ header .container nav ul li a {
 
 .about {
   background-color: #fff;
-  padding: 10px;
+  padding: 25px;
   text-align: center;
+}
+.about h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
 }
 .about .about-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 25px;
   gap: 50px;
 }
 .about .about-container .about-text {
   width: 50%;
 }
-.about .about-container .about-text h2 {
-  color: #000;
-  font-size: 30px;
-  font-weight: bold;
-}
 .about .about-container .about-text p {
   color: #000;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 210%;
+  margin-bottom: 25px;
+  text-align: justify;
 }
 .about .about-container .about-image {
   width: 50%;
 }
 .about .about-container .about-image img {
   width: 100%;
+  border-radius: 25px;
 }
 
 footer {
-  background-color: #fff;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
   padding: 10px;
   text-align: center;
 }
@@ -130,21 +148,9 @@ footer .container {
   display: flex;
   justify-content: space-between;
 }
-footer .container .logo {
-  color: #000;
-  font-size: 30px;
-  font-weight: bold;
-}
-footer .container nav ul {
-  display: flex;
-  list-style: none;
-}
-footer .container nav ul li {
-  margin-left: 20px;
-}
-footer .container nav ul li a {
-  color: #000;
+footer a:link,
+footer a:visited {
+  color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
+  padding-left: 10px;
 }/*# sourceMappingURL=styles.css.map */
