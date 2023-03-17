@@ -137,6 +137,66 @@ header .container nav ul li a {
   border-radius: 25px;
 }
 
+.contact {
+  background-color: burlywood;
+  padding: 25px;
+  text-align: center;
+}
+.contact h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact .contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  gap: 50px;
+}
+.contact .contact-container .contact-text {
+  width: 50%;
+}
+.contact .contact-container .contact-text p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 210%;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+.contact .contact-container .contact-form {
+  width: 50%;
+}
+.contact .contact-container .contact-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.contact .contact-container .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.contact .contact-container .contact-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 210%;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
 footer {
   background-color: #333;
   color: #fff;
