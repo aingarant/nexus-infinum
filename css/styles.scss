@@ -1,0 +1,165 @@
+*
+{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: #000;
+}
+
+header{
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, .5);
+  z-index: 1;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+      color: #000;
+      font-size: 30px;
+      font-weight: 900;
+    }
+
+    nav{
+      ul{
+        display: flex;
+        list-style: none;
+        li{
+          margin-left: 20px;
+          a{
+            color: #000;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hero
+{
+  background-image: url('../images/hero.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container{
+    text-align: center;
+    h1{
+      color: #fff;
+      font-size: 50px;
+      font-weight: bold;
+    }
+    p{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.services
+{
+  background-color: #efefef;
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+  .services-container{
+
+    display: flex;
+    justify-content: space-between;
+    .service{
+      width: 30%;
+      .icon{
+        font-size: 50px;
+        color: #000;
+      }
+      h3{
+        color: #000;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      p{
+        color: #000;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.about
+{
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  .about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    .about-text{
+      width: 50%;
+      h2{
+        color: #000;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      p{
+        color: #000;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+    .about-image{
+      width: 50%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+footer{
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  .container{
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+      color: #000;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    nav{
+      ul{
+        display: flex;
+        list-style: none;
+        li{
+          margin-left: 20px;
+          a{
+            color: #000;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

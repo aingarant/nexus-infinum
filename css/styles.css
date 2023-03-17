@@ -1,0 +1,150 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .logo {
+  color: #000;
+  font-size: 30px;
+  font-weight: 900;
+}
+header .container nav ul {
+  display: flex;
+  list-style: none;
+}
+header .container nav ul li {
+  margin-left: 20px;
+}
+header .container nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("../images/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .container {
+  text-align: center;
+}
+.hero .container h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero .container p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.services {
+  background-color: #efefef;
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+}
+.services .services-container {
+  display: flex;
+  justify-content: space-between;
+}
+.services .services-container .service {
+  width: 30%;
+}
+.services .services-container .service .icon {
+  font-size: 50px;
+  color: #000;
+}
+.services .services-container .service h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+.services .services-container .service p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.about .about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+}
+.about .about-container .about-text {
+  width: 50%;
+}
+.about .about-container .about-text h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+.about .about-container .about-text p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about .about-container .about-image {
+  width: 50%;
+}
+.about .about-container .about-image img {
+  width: 100%;
+}
+
+footer {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .logo {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+footer .container nav ul {
+  display: flex;
+  list-style: none;
+}
+footer .container nav ul li {
+  margin-left: 20px;
+}
+footer .container nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */
